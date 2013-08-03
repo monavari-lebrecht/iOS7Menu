@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="mjk-Wt-A0m">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller - View 1-->
+        <scene sceneID="b2F-f4-ZNH">
+            <objects>
+                <viewController title="View 1" id="PYr-8a-lWa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="54I-xH-95Y">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Screen 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFc-9u-kLd">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.12521401534831422" green="0.45015844745188649" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oFc-9u-kLd" firstAttribute="centerY" secondItem="54I-xH-95Y" secondAttribute="centerY" type="default" id="GdK-Qw-XoF"/>
+                            <constraint firstItem="oFc-9u-kLd" firstAttribute="centerX" secondItem="54I-xH-95Y" secondAttribute="centerX" type="default" id="RIk-c7-1vc"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="View 1" id="Amk-pw-K26"/>
+                    <navigationItem key="navigationItem" id="itI-WL-eaq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9vV-wU-ctj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="893" y="-473"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Iyc-vD-cok">
+            <objects>
+                <tabBarController id="mjk-Wt-A0m" customClass="ISMViewController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="VYP-gl-L4f">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="PYr-8a-lWa" kind="relationship" relationship="viewControllers" id="Clc-hQ-xlN"/>
+                        <segue destination="bk4-6f-k6P" kind="relationship" relationship="viewControllers" id="Bvb-g1-gaD"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3DR-RC-Q4A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="78" y="-157"/>
+        </scene>
+        <!--View Controller - View 2-->
+        <scene sceneID="e8A-Pn-W3e">
+            <objects>
+                <viewController storyboardIdentifier="punkt1ViewControlller" id="bk4-6f-k6P" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bkL-q2-kyj">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Screen 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJc-iz-VOP">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.12521401530000001" green="0.4501584475" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DJc-iz-VOP" firstAttribute="centerY" secondItem="bkL-q2-kyj" secondAttribute="centerY" type="default" id="Kx9-hV-SG5"/>
+                            <constraint firstItem="DJc-iz-VOP" firstAttribute="centerX" secondItem="bkL-q2-kyj" secondAttribute="centerX" type="default" id="qqp-i5-B50"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="View 2" id="wL1-db-3Oz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v3L-cS-YQY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="893" y="216"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="ISMViewController" superclassName="UITabBarController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ISMViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
