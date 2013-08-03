@@ -4,7 +4,7 @@ iOS7Menu
 It is an easy to use menu, that fits perfectly in iOS7 Applications.
 
 
-![http://monavari.de/fileadmin/data_archive/images/iOS7Menu/iOS7Menu_screen1.png]
+![Preview Image](http://monavari.de/fileadmin/data_archive/images/iOS7Menu/iOS7Menu_screen1.png)
 
 How to use:
 
