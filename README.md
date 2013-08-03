@@ -14,4 +14,6 @@ How to use:
 4. Choose _viewcontrollers_ in the appearing menu
 5. Repeat steps 3 and 4 to add all your view controllers to the menu
 
-Video: http://monavari.de/fileadmin/data_archive/images/iOS7Menu/iOS7Menu%20-%20Breitband.m4v
+Video: http://www.youtube.com/watch?v=2nY8joGZ4iY&feature=youtu.be
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/2nY8joGZ4iY" frameborder="0" allowfullscreen></iframe>
