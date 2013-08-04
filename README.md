@@ -16,4 +16,6 @@ How to use:
 
 Video: http://www.youtube.com/watch?v=2nY8joGZ4iY&feature=youtu.be
 
+You may also wanna have a look on http://monavari.de
+
 <iframe width="560" height="315" src="//www.youtube.com/embed/2nY8joGZ4iY" frameborder="0" allowfullscreen></iframe>
