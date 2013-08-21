@@ -298,6 +298,8 @@ static const int SENSITIVE_AREA_FOR_OPENING_MENU = 40;
 
     menuCell.textLabel.text = [[[self.viewControllers objectAtIndex:(NSUInteger)indexPath.row] tabBarItem] title];
     menuCell.textLabel.textColor = [UIColor whiteColor];
+    
+    menuCell.backgroundColor = [UIColor clearColor];
 
     return menuCell;
 }
