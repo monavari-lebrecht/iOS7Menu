@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "iOS7Menu"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Fancy iOS7 style menu."
   s.description  = <<-DESC
                       Fancy menu that fits ios7 perfectly!
