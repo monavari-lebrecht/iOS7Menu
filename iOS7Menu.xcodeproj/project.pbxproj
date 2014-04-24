@@ -235,6 +235,7 @@
 		1938224A81DA18A09C6F75B3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0510;
 				ORGANIZATIONNAME = monavari.de;
 			};
 			buildConfigurationList = 19382EE259CFD4280A1039B6 /* Build configuration list for PBXProject "iOS7Menu" */;
@@ -247,8 +248,6 @@
 			mainGroup = 193827D9E66B7F123E1B622E;
 			productRefGroup = 19382BA63BFBD611500F7706 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				1938259DF3295B3574A856EF /* iOS7Menu */,
@@ -489,6 +488,7 @@
 				1938240AA5C8353699950A64 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19382598171F29E52F64C7D0 /* Build configuration list for PBXNativeTarget "iOS7MenuTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +497,7 @@
 				19382BDB3C67939D2666A833 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19382EE259CFD4280A1039B6 /* Build configuration list for PBXProject "iOS7Menu" */ = {
 			isa = XCConfigurationList;
