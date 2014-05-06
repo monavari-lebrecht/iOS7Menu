@@ -31,7 +31,16 @@ static const int MENU_OFFSET_X = 20;
 
 static const int MENU_OFFSET_Y = 120;
 
+@protocol ISMDelegate <NSObject>
+
+- (UIImageView *)getBackgroundImageView;
+
+@end
+
 @interface ISMViewController : UITabBarController <UIGestureRecognizerDelegate, UITableViewDelegate, UITableViewDataSource>
 
 - (void)switchToViewController:(NSUInteger)viewControllerIndex;
+
+@property(nonatomic, assign) id <ISMDelegate> delegate;
+
 @end

@@ -61,8 +61,14 @@ static const int SENSITIVE_AREA_FOR_OPENING_MENU = 40;
     UIWindow *window = [self getWindow];
 
     if (!_fancyBackground) {
-        // add fancy background view
-        _fancyBackground = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"fancyBackground.png"]];
+
+        if (self.delegate) {
+            _fancyBackground = [self.delegate getBackgroundImageView];
+        } else {
+            // add fancy background view
+            _fancyBackground = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"fancyBackground.png"]];
+        }
+
         CGFloat statusBarHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
 
         _fancyBackground.frame = CGRectMake(
