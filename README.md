@@ -17,7 +17,7 @@ pod 'iOS7Menu', '~> 0.3'
 
 ## First Steps:
 
-1. Create a _Tabbed-Application_ in XCode
+1. Create a _Tabbed-Application_ in Xcode
 2. Follow steps in _How to install_
 3. Change Tab-ViewController-Class to _ISMViewController_
 4. Run project
